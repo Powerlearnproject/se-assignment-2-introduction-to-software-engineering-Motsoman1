@@ -1,0 +1,233 @@
+1. Define SE
+   >>> Is a systematic approach which accompany principle of engineering application methods to use tools and develop software systems of high-quality.
+
+2. What is SE, and how does it differ from traditional programming programming?
+   >>> SD = Developers do the small-scale work, completing a program that performs a specific function of set of functions.
+
+   >>> SE = Engineering/engineers put many programs together to make sure they all work correctly
+
+3. Difference between SE and SD? 
+   >>> The difference engineers and developers it begins with a job function:
+                                - Engineers are leaders they lead or channel developer the right perspective about the project
+                                - Developers they carry out the mandate given by engineers to execute them
+
+4. Phases of SDLC
+    >>> Requirement of gathering and analysis 
+    >>> Design
+    >>> Implementation or Coding
+    >>> Testing
+    >>> Deployment 
+    >>> Maintenance
+
+     - Requirement of gathering and analysis 
+       All the relevant information is collected from the customer to develop a pproduct as per their expectation
+
+     - Design
+       The requirement gathering in the SRS document is used as an important and software archtecture that is used for implementing system development is derived.
+
+     - Implementation or Coding
+       implementation / Coding starts once the developer gets the design document.The software design is translated into source code. All  the components of the software are implemented in this phase.
+
+     - Testing
+       Testing starts once the coding is complete and the modules are released for testing. In this phase, the developed software is testing thoroughly and any defects found are assigned to developers to get them fixed.
+
+     - Deployment
+       Once the product is tested, it is deployed in the production environment or first UAT { User Acceptance Testing } is done depending on the customer expectation
+
+     - Maintenance
+       After the deployment of a production on the production environment, maintenance of the product i.e id any issue comes up and needs to be fixed or any enhancement is to be done is taken care by the developers.
+
+5. What is Waterfall?
+   - The waterfall project management method is a linear, step-by-step approach that's ideal for projects with a clear scope and predictable timeline.  
+           It involves rigorous planning upfront to ensure that the project stays on track,{ Initiation, Planning, Execution, Monitoring control }
+
+      While this approach is effective for straightforward projects that require minimal adaptation or creativity, it may not be suitable for more complex initiatives that demand a more flexible and dynamic approach.
+
+    > What is Agile?
+    - Agile project management is a flexible and alterative approach that enables teams to quickly adapt to changing project requirements and deliver high-quality results within shorter timeframes. It's often used in SD.
+
+      Agile methodologies are about teamwork, customer satisfaction, constant refinement, and breaking big projects into bite-sized pieces.
+
+      Differences between Waterfall & Agile
+
+        - Role
+                > Waterfall strictly assigns roles to project team members, with specific duties and responsibilities defined for each team member
+
+                > In contrast, the Agile model empower team member to collaboration on different aspects of the project over time, leading to a more self-organizing team structure.
+
+
+         - Planning 
+                 > In Waterfall, planning is a linear process done at the beginning of the project, with all requirements and objectives laid out in detail upfront.
+
+                  > Agile planning is a continuous process throughout the project's life cycle, with adjustments made as new information or requirement emerges.
+
+          - Scope
+                  > The waterfall methodology generally discourages changes to the project scope, even with change requests used correctly. 
+                      This is because the methodology requires an extensive amount of time spent in the beginning trying to get the plan right,
+
+
+                   > Agile is more adaptable to changes in scope, with the development team able to adjust quickly as requirements changes
+
+           - Time frames
+                   > Waterfall method is designed for long-term project with predetermined timeline. 
+                      The project is completed linearly, with each phase depart
+
+                   >  Agile, however, uses short iterations to deliver value rapidly, allowing teams to adjust plans over time and achieve shorter time frames.
+
+           - Speed
+                   > Waterfall projects tend to take longer because all requirements must be agreed upon development can begin.
+
+                   > Agile projects, on the other hand, are usually delivered more rapidly than waterfall projects due to the iterative development cycle used in agile.
+
+
+6. Describing the process and its importance in the SDLC
+
+         Why SDLC so important?
+
+               > SD can be challenging to manage due to changing requirements, technology upgrades, and cross-functional collaboration.
+                    The software development lifecycle methodologies provides a systematic management framework with specific deliverables at every stage of the SD process.
+                      As a result, all stakeholders, agree on software development goals and requirements upfront and also have a plan to achieve those goals.
+
+          Here are some benefits of SDLC:
+                  - Increased visibility of the development process for all stakeholders involved.
+                  - Effecient estimation, planning and scheduling.
+                  - Systematic software delivery and better customer satifaction
+
+7. Explain Modularity in software design
+           Definition : 
+                       - Refers to the practice of diving software into seperate, independent modules, each respnsible for a distinct feature or 
+                                 functionality. This approach promotes better maintainability, scalability and reusability of code by isolating functional boundaries,
+                                   making complex systems easier to manage and evolve.
+
+                              Understanding Modularitty in software design:
+                             Modularity is a fundamental design principle in software engineering aimed at creating software in a way that minimizes dependencies among the components
+                              of a system. This helps to localize the impact of changes, simplifies maintenance, and enhances the understading of the system.
+
+8. Testing
+   >>> Unit Testing
+       - Is the first level of testing usually performed by the developers
+       - A module or component is tested isolation
+
+   >>> Integration testing 
+       - We test a group of related modules
+       - It aims at finding interfacing issues black/white the modules i.e the individual units can be ntegrated into a sub-system correctly
+
+   >>> System testing 
+       - It is the level of testing where the complete integrated application is tested as a whole
+       - It aims at determining it the application conforms to its business requirements
+
+   >>> Acceptance testing 
+       - The most important levels of testing on successful completion of which the application is released to production
+       - The aim is to make sure that the product meets the specified business requirements within the defined standard of quality
+
+       Why is testing so crucial?
+         - Due to software failure which may result to the cause of heavy losses and security issues affecting many customers. It is essential to provide functional application
+              and to prevent your company from any damage 
+
+9. VCS - Version Control Systems
+          What is VCS?
+               - A system that tracks the progress of code across the software development lifecycle and its multiple iterations - which maintain a record of every complete with 
+                  authorship, timestamp, and other details - and also aids in managing change
+
+          Why is it important?
+             - The continuous process of modifying becomes an easy task
+             - It is used by software developers to maintain documentation  and configuration files as well as source code
+             - It helps developers to store different version of software safety and in an organized manner
+
+              Examples of VCS:
+                > IBM Configuration Management Version Control (CMVC)
+                   - Software that carries out software version control, configuration management, and change management tasks is known as Configuration Management Version Control.
+                       This system was client-server based, with servers for several Unix flavors and command-line and graphical clients for many platforms.
+
+                > Git 
+                  - Git is among the most powerful version control programs now on the market. The creator of Linux, Linus Torvals, created the distributed version control system known
+                     as Git. Its memory footprint is minimal and can follow changes in any file.
+
+                > Apache Subversion
+                  - A version control system called Apache Subversion, which is free and open-source, enables programmers to manage both the most recent and previous iterations of crucial
+                         files.
+
+
+10. Discuss the role of Software Projact Manager and some key responsibilties and challenges faced in managing software project
+
+    Role of SPM:
+           - Is generally never directly involved in producing the end product but he controls and manages the activities involved in the production.
+                He is aware of all the phases of software development lifecycle that the software would go through.
+
+               Responsibilities
+                  - Is essential for the successful completion of a software project, to do his job effectively, the project manager must have certain set of skills.
+
+                    >>> Managing People
+                         - Acts as a project leader
+                         - Communication with stakeholders
+                         - Manages human resources
+
+                    >>> Managing Project
+                         - Monitors progress and performance 
+                         - Risk analysis at every phase
+                         - Managing time and budget constraint
+
+11. Define software maintenance
+    - The main purpose is to modify and update software application after delivery to correct faults and to improve performance software is a model of the real world.
+
+    >>> Difference types of maintenance activities
+         Four types of maintenance
+
+         - Corrective software maintenance
+         - Preventive software maintenance
+         - Perfective software maintenance
+         - Adaptive software maintenance
+
+           > Corrective Software maintenance
+             - Is necessary something goes wrong in a piece of software including faults and error. These can have a widespread
+                impact on the functionality of the software in general and therefore must be addressed as quickly as possible.
+
+           > Preventive Software maintenance
+             - Is looking into the future so that your software can keep working as desired for as long as possible.
+
+                This including making necessary changes, upgrades, adaptations and more. Preventative software maintenance may address
+                 small issues which at the given time may lack significance but may turn into larger problems in the future.
+
+           > Perfective Software maintenance 
+             - As with any product on the market, once the software is released to the public, new issues and ideas come to the surface.
+               Users may see the need for new features or requirements that they would like to see in the software to make it the best tool
+                 available for their needs.
+
+           > Adaptive Software maintenance
+             - It has to do with the changing technologies as well as policies and rules regarding your software.
+               These include operating system changes, cloud storage, hardware, etc. When these changes are performed, your software 
+               must adapt in order to properly meet new requirements and continue to run well.
+
+              Why is software maintenance important?
+              - Creating a new piece of software and launching it into the world is an exciting stop for any company.
+                 A lot goes into creating your software and its launch including the actual building and coding, licensing models marketing and 
+                 more. However, any great pieces of software must be able to adapt to the times.
+
+12. Which ethical issues software engineers face?
+     Five ethical issues:
+         - Data Privacy
+             Elements of considered about data privacy:
+                >>> User consent : Always clearly inform the user what data you collect, how you will use it and with whom it could be shared
+                     You must always obtain the user's consent before collecting any of their data.
+
+                >>> Data minimisation : Do not extract more data from the user than you require. Only extract the data that's absolutely necessary to 
+                        provide your services.
+
+          - Accessibility
+                Accessibility centers around diversity, inclusivity and equal access to technology. Because software touches the lives of billions
+                   of people, engineers should aim to create digital worlds that are accessible to everyone, including these with disabilities.
+
+          - Addictive design
+                Too many consumer apps use addictive design to keep their users engage. Instead of a user interacting with an app
+                  because they enjoy using it, they interact with the app because it's engineers implemented addictive merchanisms that encourage
+                  constant engagement and usage over a user's well-being.
+
+          - Algorithm Bias 
+                 Software has no inherent moral framework, but it may operate on datasets that are biased toward a certain group of users. This is particularly
+                   important in the field of AI, especially as AI becomes more powerful and takes on a more important role in our society.
+
+          - Software Security
+                This is especially important for software in industries were safety is of the utmost importance like aerospace or manufacturing or healthcare.
+                Software bugs or poorly thought-out features in these industries can endanger people's lives. But in all industries, software engineers should 
+                use secure coding practices to protect both the software itself and the people who use it.
+   
